@@ -15,6 +15,7 @@ setup(
     name=package_name,
     version=package["version"],
     author=package['author'],
+    url="https://github.com/alhoo/dash_rjsf",
     packages=[package_name],
     include_package_data=True,
     license=package['license'],
